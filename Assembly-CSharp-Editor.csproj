@@ -131,11 +131,11 @@
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="GETween">
- <HintPath>/Users/anrae/Documents/unity g/elements/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
- </Reference>
  <Reference Include="GUIAnimatorFREE">
  <HintPath>/Users/anrae/Documents/unity g/elements/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>/Users/anrae/Documents/unity g/elements/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

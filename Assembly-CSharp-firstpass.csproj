@@ -138,11 +138,11 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
- <Reference Include="GETween">
- <HintPath>/Users/anrae/Documents/unity g/elements/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
- </Reference>
  <Reference Include="GUIAnimatorFREE">
  <HintPath>/Users/anrae/Documents/unity g/elements/Assets/GUI Animator/GUI Animator FREE/Plugins/GUIAnimatorFREE.dll</HintPath>
+ </Reference>
+ <Reference Include="GETween">
+ <HintPath>/Users/anrae/Documents/unity g/elements/Assets/GUI Animator/Common/Plugins/GETween.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
