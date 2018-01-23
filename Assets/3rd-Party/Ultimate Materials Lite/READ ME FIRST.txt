@@ -1,0 +1,9 @@
+Thank you for downloading Ultimate Materials!
+
+Please do not resell or offer this material for download by itself or in a texture pack, or bundle it with a 3D model or scene.
+
+The material comes in a low resolution, you can set the resolution under "Generated Textures" property of the material.
+
+To know how to correctly use it, please watch this video:
+https://www.youtube.com/watch?v=t2DJuqJAiJw
+
