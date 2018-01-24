@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: d3c09f0d2fb53412b814425d9c34f4b4
+timeCreated: 1511290876
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: IMG_1441_JPG
+    100002: IMG_1442_JPG
+    100004: IMG_1443_JPG
+    100006: IMG_1444_JPG
+    100008: IMG_1445_JPG
+    100010: IMG_1446_JPG
+    100012: IMG_1447_JPG
+    100014: IMG_1448_JPG
+    100016: IMG_1449_JPG
+    100018: IMG_1450_JPG
+    100020: IMG_1451_JPG
+    100022: IMG_1452_JPG
+    100024: IMG_1453_JPG
+    100026: IMG_1454_JPG
+    100028: IMG_1455_JPG
+    100030: IMG_1456_JPG
+    100032: IMG_1457_JPG
+    100034: IMG_1458_JPG
+    100036: IMG_1459_JPG
+    100038: IMG_1460_JPG
+    100040: IMG_1461_JPG
+    100042: IMG_1462_JPG
+    100044: IMG_1463_JPG
+    100046: IMG_1464_JPG
+    100048: //RootNode
+    100050: mainMeshNode
+    400000: IMG_1441_JPG
+    400002: IMG_1442_JPG
+    400004: IMG_1443_JPG
+    400006: IMG_1444_JPG
+    400008: IMG_1445_JPG
+    400010: IMG_1446_JPG
+    400012: IMG_1447_JPG
+    400014: IMG_1448_JPG
+    400016: IMG_1449_JPG
+    400018: IMG_1450_JPG
+    400020: IMG_1451_JPG
+    400022: IMG_1452_JPG
+    400024: IMG_1453_JPG
+    400026: IMG_1454_JPG
+    400028: IMG_1455_JPG
+    400030: IMG_1456_JPG
+    400032: IMG_1457_JPG
+    400034: IMG_1458_JPG
+    400036: IMG_1459_JPG
+    400038: IMG_1460_JPG
+    400040: IMG_1461_JPG
+    400042: IMG_1462_JPG
+    400044: IMG_1463_JPG
+    400046: IMG_1464_JPG
+    400048: //RootNode
+    400050: mainMeshNode
+    2000000: IMG_1441_JPG
+    2000002: IMG_1442_JPG
+    2000004: IMG_1443_JPG
+    2000006: IMG_1444_JPG
+    2000008: IMG_1445_JPG
+    2000010: IMG_1446_JPG
+    2000012: IMG_1447_JPG
+    2000014: IMG_1448_JPG
+    2000016: IMG_1449_JPG
+    2000018: IMG_1450_JPG
+    2000020: IMG_1451_JPG
+    2000022: IMG_1452_JPG
+    2000024: IMG_1453_JPG
+    2000026: IMG_1454_JPG
+    2000028: IMG_1455_JPG
+    2000030: IMG_1456_JPG
+    2000032: IMG_1457_JPG
+    2000034: IMG_1458_JPG
+    2000036: IMG_1459_JPG
+    2000038: IMG_1460_JPG
+    2000040: IMG_1461_JPG
+    2000042: IMG_1462_JPG
+    2000044: IMG_1463_JPG
+    2000046: IMG_1464_JPG
+    2300000: mainMeshNode
+    3300000: mainMeshNode
+    4300000: mainMeshNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
