@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 0c609986e8dabdd4a843ee638e0eb4f3
-timeCreated: 1517357602
+timeCreated: 1517507486
 licenseType: Free
 SubstanceImporter:
   externalObjects: {}
@@ -10,7 +10,7 @@ SubstanceImporter:
     name: Rock_Wall_Study
     prototypeName: Rock_Wall_Study
     shaderName: 
-    shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    shader: {fileID: 47, guid: 0000000000000000f000000000000000, type: 0}
     shaderKeywords: _METALLICGLOSSMAP _NORMALMAP _PARALLAXMAP
     renderQueue: -1
     lightmapFlags: 4
@@ -74,6 +74,10 @@ SubstanceImporter:
           scale: {x: 1, y: 1}
           offset: {x: 0, y: 0}
       - _ParallaxMap:
+          texture: {instanceID: 0}
+          scale: {x: 1, y: 1}
+          offset: {x: 0, y: 0}
+      - _SpecGlossMap:
           texture: {instanceID: 0}
           scale: {x: 1, y: 1}
           offset: {x: 0, y: 0}
