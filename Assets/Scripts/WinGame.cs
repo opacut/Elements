@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class WinGame : MonoBehaviour
 {
@@ -26,8 +27,7 @@ public class WinGame : MonoBehaviour
         
         if(EndGame)
         {
-            textPanel.SetActive(true);
-            text.text = "You have won!";
+            SceneManager.LoadScene("EndGame");
         }
 	}
 }

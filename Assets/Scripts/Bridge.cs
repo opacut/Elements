@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System;
 
 public class Bridge : MonoBehaviour
@@ -11,24 +12,12 @@ public class Bridge : MonoBehaviour
     public State state;
     public GameObject backlight;
 
+    public Image Crosshair;
+    public Sprite CrosshairFull;
+    public Sprite CrosshairEmpty;
+
     public GameObject rend;
     public Material[] mats;
-
-    /*
-    public bool mouse1 = false;
-    public bool mouse2 = false;
-
-    public void Update()
-    {
-        mouse1 = false;
-        mouse2 = false;
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("Mouse Captured.");
-            mouse1 = true;
-        }
-    }
-    */
 
     void Start ()
     {
@@ -38,19 +27,19 @@ public class Bridge : MonoBehaviour
     }
 
     private void OnMouseExit()
-    //private void Activate()
     {
         backlight.SetActive(false);
+        Crosshair.sprite = CrosshairEmpty;
     }
 
     private void OnMouseOver()
-    //private void Deactivate()
-    //private void MouseInput()
     {
-        //Debug.Log("called the method");
         backlight.SetActive(true);
-        //Debug.Log("Pressed button");
-        //Toggle(1);
+
+        Crosshair.sprite = CrosshairFull;
+
+        //Crosshair.sprite = CrosshairFull;
+
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Pressed button");
