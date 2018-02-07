@@ -14,6 +14,11 @@ public class Node : MonoBehaviour
 
     public Material[] mats;
     
+    public void LightUp()
+    {
+        mat.GetComponent<MeshRenderer>().material = mats[6];
+    }
+
     void Start ()
     {
         mat.GetComponent<MeshRenderer>().material = mats[max];

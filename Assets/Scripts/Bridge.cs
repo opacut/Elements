@@ -19,6 +19,8 @@ public class Bridge : MonoBehaviour
     public GameObject rend;
     public Material[] mats;
 
+    public bool Locked;
+
     void Start ()
     {
         //this.gameObject.GetComponent<MeshRenderer>().enabled = false;
@@ -40,12 +42,12 @@ public class Bridge : MonoBehaviour
 
         //Crosshair.sprite = CrosshairFull;
 
-        if (Input.GetMouseButtonDown(0))
+        if (!Locked&&Input.GetMouseButtonDown(0))
         {
             Debug.Log("Pressed button");
             Toggle(1);
         }
-        if (Input.GetMouseButtonDown(1))
+        if (!Locked&&Input.GetMouseButtonDown(1))
         {
             Toggle(-1);
         }
