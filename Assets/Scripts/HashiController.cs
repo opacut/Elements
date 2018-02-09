@@ -10,8 +10,15 @@ public class HashiController : MonoBehaviour
     public List<ParticleSystem> particleSystems = new List<ParticleSystem>();
     public bool Solved;
 
+    //public Animation GraphAnimation;
+    //public Animation SymbolAnimation;
+    //public Animator GraphAnimator;
+    //public Animator SymbolAnimator;
+    Animator animator;
+
     void Start()
     {
+        animator = GetComponent<Animator>();
         Solved = false;
     }
 
@@ -32,6 +39,11 @@ public class HashiController : MonoBehaviour
                 ps.Play();
             }
             Solved = true;
+            //GraphAnimator.SetBool("Solved", true);
+            //SymbolAnimator.SetBool("Solved", true);
+            //GraphAnimation.Play();
+            //SymbolAnimation.Play();
+            animator.SetBool("Solved", true);
         }
         else
         {

@@ -8,6 +8,7 @@ public class WinGame : MonoBehaviour
 {
     public List<HashiController> Puzzles = new List<HashiController>();
     public bool EndGame;
+    public bool Ended;
     public Text text;
     public GameObject textPanel;
 
@@ -15,19 +16,26 @@ public class WinGame : MonoBehaviour
     {
         textPanel.SetActive(false);
         EndGame = false;
+        Ended = false;
         text.text = "";
     }
 	
 	void Update ()
     {
-        if (Puzzles.TrueForAll(y => y.Solved))
+        if (!EndGame&&Puzzles.TrueForAll(y => y.Solved))
         {
             EndGame = true;
         }
         
-        if(EndGame)
+        if(!Ended&&EndGame)
         {
-            SceneManager.LoadScene("EndGame");
+            Invoke("EndScene", 10);
+            Ended = true;
         }
 	}
+
+    void EndScene()
+    {
+        SceneManager.LoadScene("EndGame");
+    }
 }
